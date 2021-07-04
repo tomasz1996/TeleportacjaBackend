@@ -1,10 +1,10 @@
 package com.example.backend.dto;
 
-import lombok.Builder;
 import lombok.Getter;
+import lombok.Setter;
 
 @Getter
-@Builder
+@Setter
 public class WeatherDto {
-//    private  weather;
+    private WeatherMainDto data;
 }

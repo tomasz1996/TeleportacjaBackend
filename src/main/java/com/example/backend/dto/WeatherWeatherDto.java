@@ -1,15 +1,10 @@
 package com.example.backend.dto;
 
 import lombok.Getter;
+import lombok.Setter;
 
-//@Getter
-
-//not really used
+@Getter
+@Setter
 public class WeatherWeatherDto {
-
-    private Object weatherObject[];
-
-    public Object getWeatherObject() {
-        return weatherObject;
-    }
+    private int avgtempC;
 }
